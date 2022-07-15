@@ -2,7 +2,6 @@ baseURL = "http://MintZzz1009.github.io/"   # "http://example.org/"
 
 # Change the default theme to be use when building the site with Hugo
 theme = "LoveIt"
-themesDir = "../themes/LoveIt"
 
 # website title
 title = "MintZzz DevLog"          # "My New Hugo Site"
