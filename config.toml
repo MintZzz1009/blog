@@ -2,7 +2,7 @@ baseURL = "http://MintZzz1009.github.io/"   # "http://example.org/"
 
 # Change the default theme to be use when building the site with Hugo
 theme = "LoveIt"
-themesDir = "../themes"
+themesDir = "../themes/LoveIt"
 
 # website title
 title = "MintZzz DevLog"          # "My New Hugo Site"
@@ -657,7 +657,7 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
         title = ""
     [languages.en.params]
       [languages.en.params.search]
-        enable = true
+        enable = trueLoveIt
         type = "algolia"
         contentLength = 4000
         placeholder = ""
