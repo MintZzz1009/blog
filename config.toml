@@ -657,7 +657,7 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
         title = ""
     [languages.en.params]
       [languages.en.params.search]
-        enable = trueLoveIt
+        enable = true
         type = "algolia"
         contentLength = 4000
         placeholder = ""
