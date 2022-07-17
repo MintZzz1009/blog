@@ -5,11 +5,11 @@ date: 2022-07-16T00:04:01+09:00
 draft: false
 author: "Haksoo-Ji"
 authorLink: "https://MintZzz1009@github.io"
-description: ""
-image: []
+description: "This is a testing post."
+image: [./images/divazus-fabric-store-2VG1ggL5IuQ-unsplash.jpg]
 resources :
-- name: ""
-  src: ""
+- name: "Mint fabric"
+  src: "divazus-fabric-store-2VG1ggL5IuQ-unsplash.jpg"
 ---
 
 
