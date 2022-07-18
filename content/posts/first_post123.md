@@ -3,10 +3,10 @@ weight: 4
 title: "First_post123"
 date: 2022-07-16T00:04:01+09:00
 draft: false
-author: "Haksoo-Ji"
-authorLink: "https://MintZzz1009@github.io"
-description: "This is a testing post."
-image: [./images/divazus-fabric-store-2VG1ggL5IuQ-unsplash.jpg]
+author: "Haksoo Ji"
+authorLink: "https://github.com/MintZzz1009"
+description: "This is testing <description>."
+image: [/images/divazus-fabric-store-2VG1ggL5IuQ-unsplash.jpg]
 resources :
 - name: "Mint fabric"
   src: "divazus-fabric-store-2VG1ggL5IuQ-unsplash.jpg"
