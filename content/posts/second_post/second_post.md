@@ -220,7 +220,7 @@ A
 B
 ***
 
-
+<!--
 ## Style
 ```markdown
   {{< style "text-align: center; strong{ color:#00b1ff; }" >}} "Thanks for your interest in my Hugo blog!  
@@ -231,6 +231,8 @@ B
   {{< style "text-align: center; strong{color:#00b1ff;}" >}} "Thanks for your interest in my Hugo blog!  
   It's just the beginning of __MintZzz's DevLog__." {{< /style >}}
   {{< style "text-align: right;" >}}-- __Haksoo Ji__{{< /style >}}
+  
+-->
 
 <!-- This is a comment -->
 
