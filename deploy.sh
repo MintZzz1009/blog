@@ -7,7 +7,7 @@ hugo -t LoveIt
 # github.io 레포 push위해 파일 경로 이동
 cd public
 # 충돌 방지를 위해 한번 pull
-git pull origin maㅑㅜ
+git pull origin main
 
 # git내용들 추가
 git add .
@@ -28,7 +28,7 @@ cd ..
 
 # blog 레포 Commit & Push
 # 충돌 방지를 위해 한번 pull
-git pull origin master
+git pull origin main
 git add .
 
 msg="rebuilding site `date`"
@@ -37,4 +37,4 @@ if [ $# -eq 1 ]
 fi
 git commit -m "$msg"
 
-git push origin master
+git push origin main
