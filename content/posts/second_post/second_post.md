@@ -1,8 +1,8 @@
 ---
 title: "Second_post"
 subtitle: "Second_post's subtitle"
-date: 2022-07-18T15:47:00+09:00
-lastmod: 2022-07-18T15:47:00+09:00
+date: 2022-07-18T15:47:00+09:00 
+lastmod:                          #lastmod?
 draft: false
 author: "Haksoo Ji"
 authorLink: "https://github.com/MintZzz1009"

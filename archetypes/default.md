@@ -2,19 +2,19 @@
 title: "{{ replace .TranslationBaseName "-" " " | title }}"
 subtitle: ""
 date: {{ .Date }}
-lastmod: {{ .Date }}
+lastmod: {{ .Lastmod }}
 draft: true
 author: "Haksoo Ji"
 authorLink: "https://github.com/MintZzz1009"
-description: "This is testing <description>."
+description: ""
 license: ""
-images: [/images/sky_logo.png]
+images: []
 
-tags: ["Markdown", "Java", "Git", "submodule", "theme", "LoveIt"]
-categories: ["dev"]
+tags: []
+categories: []
 
-featuredImage: "Mint fabric"
-featuredImagePreview: "/images/divazus-fabric-store-2VG1ggL5IuQ-unsplash.jpg"
+featuredImage: ""
+featuredImagePreview: ""
 
 hiddenFromHomePage: false
 hiddenFromSearch: false
