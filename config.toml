@@ -434,7 +434,7 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
         enable = false
       #  utterances comment config
       [params.page.comment.utterances]
-        enable = false
+        enable = true
         # owner/repo
         repo = ""
         issueTerm = "pathname"
