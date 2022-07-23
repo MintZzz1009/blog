@@ -67,8 +67,8 @@ This is summary of the second post.
 
 ## categories 와 tags 를 처음으로 생성
 
-- 현재 `./public/categories/` 에는 `./essays` 와 `./memoirs` `./reviews` `./index.html` 만 있는 상태.
-- 이 파일을 생성할 때 `front-matter` 에 다음을 추가해봤다.
+- 현재 ./public/categories/ 에는 ./essays 와 ./memoirs ./reviews ./index.html 만 있는 상태.
+- 이 파일을 생성할 때 front matter 에 다음을 추가해봤다.
 ```markdown
 tags: ["Markdown", "Java", "Git", "submodule", "theme", "LoveIt"]
 categories: ["dev"]
@@ -76,24 +76,10 @@ categories: ["dev"]
 
 ___
 
-## Markdown 에서의 이미지 삽입 방법
-Hugo에서 Markdown형식의 문서에 이미지를 참조시키는 방법은 Local과 Web을 통하는 2가지로 나눠서 볼 수 있다.
-(이미지 파일 뿐만 아니라 음악이나 동영상 등 여러 리소스 등을 참조시킬 수 있다.)
+## 여러가지 방법으로 이미지 파일 추가해보기.
 
-### Local 에서의 이미지 참조
-Local에서는 3가지 방법으로 이미지를 참조시킨다.
-1. 페이지 번들 형식
-2. `./assets` 참조
-3. `./static` 참조
-참조의 우선순위 또한 위의 순서와 같다.
-
-#### 페이지 번들 형식
-페이지 번들 형식은 말그대로 포스팅을 할 때, 하나의 포스팅에 필요한 문서파일과 이미지 파일 등을 같은 디렉터리로 묶는 것이다.
-
-기본적으로 `Hugo`에서 `hugo new posts/new_post.md`으로 새로운 포스트를 생성하게 된다.
-
-
-#### `./static` 디렉터리 내부의 이미지 파일 불러오기.
+### 1. 일반적인 방법 - markdown 형식 
+#### ./static 디렉터리 내부의 이미지 파일 불러오기.
 ```markdown
 <!-- 파일 경로 = "/blog/static/images/file.img" -->
 ![Mint_block](/images/tools-for-motivation-m1DZR0Q9c6w-unsplash.jpg)

@@ -436,7 +436,7 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
       [params.page.comment.utterances]
         enable = true
         # owner/repo
-        repo = ""
+        repo = "repo="MintZzz1009/blog-comments""
         issueTerm = "pathname"
         label = ""
         lightTheme = "github-light"
