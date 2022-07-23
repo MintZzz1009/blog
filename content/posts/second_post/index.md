@@ -8,7 +8,7 @@ author: "Haksoo Ji"
 authorLink: "https://github.com/MintZzz1009"
 description: "This is summary description in front-matter."
 license: ""
-images: "sky_logo.png"  # []
+images: []   
 
 tags: ["Markdown", "Java", "Git", "submodule", "theme", "LoveIt"]
 categories: ["dev"]
