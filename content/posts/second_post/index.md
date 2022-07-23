@@ -8,13 +8,13 @@ author: "Haksoo Ji"
 authorLink: "https://github.com/MintZzz1009"
 description: "This is summary description in front-matter."
 license: ""
-images: [/images/sky_logo.png]
+images: "sky_logo.png"  # []
 
 tags: ["Markdown", "Java", "Git", "submodule", "theme", "LoveIt"]
 categories: ["dev"]
 
 featuredImage: "featured-image.png"
-featuredImagePreview: "https://hugoloveit.com/basic-markdown-syntax/featured-image.png"
+featuredImagePreview: "featured-image.png"
 
 hiddenFromHomePage: false
 hiddenFromSearch: false
