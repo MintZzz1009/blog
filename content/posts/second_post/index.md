@@ -117,12 +117,12 @@ ___
 
 #### 표(table) 안에 이미지와 캡션 넣기.
 ```markdown
-| ![Mint_block](tools-for-motivation-m1DZR0Q9c6w-unsplash.jpg |
+| ![Mint_block](tools-for-motivation-m1DZR0Q9c6w-unsplash.jpg) |
 |:-------:|
 | ***민트색 벽돌*** |
 ```
 *출력 :*
-| ![Mint_block](tools-for-motivation-m1DZR0Q9c6w-unsplash.jpg |
+| ![Mint_block](tools-for-motivation-m1DZR0Q9c6w-unsplash.jpg) |
 |:-------:|
 | ***민트색 벽돌*** |
 
@@ -133,7 +133,7 @@ ___
 ![Mint_block][Mint_block]
 
 <!-- refernce -->
-[Mint_block]: /tools-for-motivation-m1DZR0Q9c6w-unsplash.jpg "The Mint Block"
+[Mint_block]:/tools-for-motivation-m1DZR0Q9c6w-unsplash.jpg "The Mint Block"
 ```
   
 *출력 :*
