@@ -2,7 +2,7 @@
 title: "{{ replace .TranslationBaseName "-" " " | title }}"
 subtitle: ""
 date: {{ .Date }}
-lastmod: {{ .Lastmod }}
+lastmod: {{ .Date }}
 draft: true
 author: "Haksoo Ji"
 authorLink: "https://github.com/MintZzz1009"
