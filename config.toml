@@ -482,12 +482,13 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
   [markup.highlight]
     codeFences = true
     guessSyntax = true
+    hl_Lines = ""
     lineNos = true
     lineNumbersInTable = true
     # false is a necessary configuration
     # (https://github.com/dillonzq/LoveIt/issues/158)
-    noClasses = false
-    style = "rrt"   # void 였는데 추가해봄.
+    noClasses = true            # false 였는데, syntax Highlighting theme 적용을 위해서 true 로 바꿈.
+    style = "rrt"               # void 였는데 추가해봄.
     tabWidth = 4
   # Goldmark is from Hugo 0.60 the default library used for Markdown
   [markup.goldmark]
