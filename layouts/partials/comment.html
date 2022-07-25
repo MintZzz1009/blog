@@ -9,13 +9,6 @@
         {{- $utterances := $comment.utterances | default dict -}}
         {{- if $utterances.enable -}}
             <div id="utterances" class="comment">
-                <script src="https://utteranc.es/client.js"
-                        repo="MintZzz1009/blog-comments"
-                        issue-term="pathname"
-                        theme="github-light"
-                        crossorigin="anonymous"
-                        async>
-                </script>
             </div>
             {{- $commentConfig = dict "repo" $utterances.repo | dict "utterances" | merge $commentConfig -}}
             {{- $commentConfig = $utterances.issueTerm | default "pathname" | dict "issueTerm" | dict "utterances" | merge $commentConfig -}}
