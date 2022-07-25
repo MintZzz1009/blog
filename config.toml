@@ -381,7 +381,7 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
         # owner/repo
         repo = "MintZzz1009/blog-comments"
         issueTerm = "pathname"
-        label = ""
+        label = "Comment"
         lightTheme = "github-light"
         darkTheme = "github-dark"
     #  Third-party library config
@@ -487,8 +487,8 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
     lineNumbersInTable = true
     # false is a necessary configuration
     # (https://github.com/dillonzq/LoveIt/issues/158)
-    noClasses = true            # false 였는데, syntax Highlighting theme 적용을 위해서 true 로 바꿈.
-    style = "rrt"               # void 였는데 추가해봄.
+    noClasses = false           # false 였는데, syntax Highlighting theme 적용을 위해서 true 로 바꿈.
+                     # void 였는데 추가해봄.
     tabWidth = 4
   # Goldmark is from Hugo 0.60 the default library used for Markdown
   [markup.goldmark]
