@@ -68,7 +68,7 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
 
 [params]
   # site default theme ["auto", "light", "dark"]
-  defaultTheme = "auto"
+  defaultTheme = "light"
   # public git repo url only then enableGitInfo is true
   gitRepo = "www.github.com/MintZzz1009"
   #  which hash function used for SRI, when empty, no SRI is used
@@ -507,7 +507,7 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
   [markup.tableOfContents]
     startLevel = 2
     endLevel = 6
-    oredered = true     # void 였는데 추가해봄. 순서있는 목록?
+    ordered = true     # void 였는데 추가해봄. 순서있는 목록?
 
 # Sitemap config
 [sitemap]
