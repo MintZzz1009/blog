@@ -4,8 +4,7 @@ This is my first blog repository made by Hugo generating static sites.
 ## _Note!_
 This repository has 2 submodules each connected to another repository.
 
-> `/public/` linked to ***https://MintZzz1009.github.io/mintzzz1009.github.io***
-    * `/public/` - has builded files to using Hugo(static site generator).
+> `/public/` linked to ***https://MintZzz1009.github.io/mintzzz1009.github.io***<br>
 > `/themes/LoveIt/` linked to ***https://github.com/dillonzq/LoveIt***
 
 
